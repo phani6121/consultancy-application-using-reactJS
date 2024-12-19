@@ -1,0 +1,43 @@
+.background {
+  background-image: url('./images/image.png');
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.content {
+  color: white;
+  font-size: 20px;
+}
+
+.dropbtn {
+  background-color: #0093DD;
+  color: white;
+  padding: 17px 15px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+input {
+  width: 73%;
+  padding: 8px;
+  border-radius: 10px;
+  border: none;
+}
+
+input::placeholder {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+
+}
